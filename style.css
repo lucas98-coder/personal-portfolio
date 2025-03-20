@@ -1,0 +1,682 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0a0e14;
+}
+
+/* first page */
+.navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+    background-color: #0a0e14;
+}
+
+.nav-list {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.logo {
+
+    width: 20%;
+    position: absolute;
+    left: 0;
+
+}
+
+.logo>img {
+    max-width: 100%;
+    height: 10em;
+    filter: brightness(2);
+}
+
+.navlist a:hover {
+    transition: all 0.65s ease-out;
+    color: rgba(138, 43, 226, 0.8);
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.main {
+    flex: 1;
+    height: 100vh;
+}
+
+.container {
+
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3rem 5rem;
+}
+
+.firsthalf {
+    max-width: 50%;
+}
+
+.secondhalf {
+    max-width: 70%;
+    padding-left: 50px;
+}
+
+.gradient-text {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #5100ff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pro-img {
+    height: 28em;
+    width: 28em;
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: brightness(1.1);
+    background-image: url('/Final web/img/Mdsayeed.jpeg.png');
+    object-fit: contain;
+    filter: drop-shadow(1rem 1rem 5rem #9b00eecc);
+}
+
+/* .glow {
+    z-index: -2;
+    position: sticky;
+    transform: translate(-2em, -1em);
+    background: radial-gradient(circle,
+            #9b00eecc,
+            rgba(138, 43, 226, 0.1),
+            transparent);
+    border-radius: 50%;
+    filter: blur(40px);
+
+} */
+
+
+.hello {
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.small {
+    font-size: small;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head {
+    font-size: 3rem;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    text-shadow: 0 0 0.1rem aliceblue;
+}
+
+.circle {
+    height: 8px;
+    width: 8px;
+    background-color: aqua;
+    border-radius: 50%;
+    /* display: grid;
+    transform: translate(-2px, 31px); */
+}
+
+.playwrite-mx-navlogo {
+    font-family: "Playwrite MX", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.name {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+    color: color-mix(in srgb, whitesmoke 50%, rgb(103, 67, 150) 50%);
+    width: 80%;
+}
+
+.arrow {
+    width: 20%;
+    filter: brightness(20);
+    position: absolute;
+    transform: rotate(20deg);
+    top: 90px;
+    left: 30%;
+}
+
+.format {
+    padding: auto;
+}
+
+.btn-main {
+    padding: 8px 2px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: sans-serif;
+    width: 20%;
+}
+
+/* second page-> About */
+
+
+.about {
+    width: 60%;
+}
+
+.para {
+    width: 50%;
+}
+
+.secpara {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: larger;
+    line-height: 2rem;
+}
+
+.edu-text {
+    line-height: 2.5rem;
+}
+
+.text-bg {
+    background-color: #1f1531;
+    text-align: center;
+    border-radius: 2rem;
+    width: 6rem;
+}
+
+.subtext {
+    font-size: 12px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(142, 147, 151);
+}
+
+.container2 {
+    display: block;
+    flex: 1;
+    height: 70vh;
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 50% 4rem;
+    border-bottom-right-radius: 50% 4rem;
+    margin: auto;
+    /* margin: 20px; */
+}
+
+/* Third page-> Education */
+
+.pro-img2 {
+
+    height: 20rem;
+    width: 20em;
+    background-size: cover;
+    background-image: url('/Final web/img/Suit\ image\ studio\ long\ v2_A1.art_\ \(2\).jpg');
+    border-radius: 2rem;
+    max-width: 100%;
+    object-fit: contain;
+    filter: drop-shadow(1rem 1rem 5rem #9b00eecc);
+}
+
+
+/* .glow2 {
+    height: 40em;
+    width: 40em;
+    position: sticky;
+    transform: translate(-10em, -10em);
+    background: radial-gradient(circle,
+            #9b00eecc,
+            rgba(138, 43, 226, 0.1),
+            transparent);
+    border-radius: 50%;
+    filter: blur(40px);
+    z-index: -2;
+} */
+
+.head3 {
+    height: auto;
+    font-size: 3em;
+    padding: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1.2em; */
+    /* text-decoration: overline solid rgb(52, 122, 252); */
+
+}
+
+.newHead{
+    display: inline;
+    position: absolute;
+    transform: translate(11.5em,1em);
+}
+
+.head4 {
+    height: 4rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.2em;
+    /* text-decoration: overline solid rgb(52, 122, 252); */
+
+}
+
+/* .head-contactpage {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    height: 10vh;
+    padding: 15px 0 0;
+    gap: 20px;
+} */
+
+.circle-format {
+    text-align: left;
+}
+
+.thirdPage {
+    background-color: #00040a;
+    width: 90%;
+    margin: auto;
+    border-radius: 2rem;
+}
+
+.container3 {
+    height: 80dvh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    align-items: normal;
+    padding: 0 2rem;
+    justify-items: center;
+    justify-content: center;
+}
+
+.passingYear {
+    line-height: 1.6;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.info {
+    width: 100%;
+    line-height: 1.6;
+    align-content: center;
+}
+
+/* fourth page-> projects */
+
+.fourthPage {
+    margin-top: 3rem ;
+}
+
+.container4 {
+    height: 90vh;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    /* overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-content: space-around;
+    max-width: 100%;
+    margin: auto;
+    object-fit: contain; */
+
+    /* margin-bottom: 2rem; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center ;
+    gap: 40px 20px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+
+.new-box {
+    max-width: 100%;
+    height: 15em;
+    width: 25rem;
+    position: relative;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #1e1e1e;
+
+    /* Dark background for contrast */
+}
+
+.new-box:hover {
+    box-shadow: 0 0 10px 5px rgba(138, 43, 226, 0.8),
+        0 0 20px 10px rgba(138, 43, 226, 0.2),
+        0 0 30px 15px rgba(138, 43, 226, 0.1);
+    /* Glowing blue shadow */
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.image {
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0 0;
+    object-fit: cover;
+}
+
+.boxText {
+    color: #0a0e14;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: small;
+}
+
+.textBgBox {
+    background-color: #afacb6;
+    text-align: center;
+    border-radius: 0.4rem;
+    width: 4rem;
+    font-size: small;
+
+}
+
+.textBox {
+    padding: 0.8em 3.6em;
+    color: #dadee4;
+    text-align: center;
+}
+
+.boxFlex {
+    height: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1e1e1e;
+
+}
+
+.new-box:hover .overlay {
+    opacity: 0.85;
+}
+
+.text {
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+/* contact page */
+
+
+
+.contact-circle {
+    height: 8px;
+    width: 8px;
+    margin-right: 3px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: grid;
+    transform: translate(52px, 33px);
+}
+
+
+
+.contact-heading {
+    color: aliceblue;
+    transform: translateX(0px);
+}
+
+.contactPage {
+
+    max-width: 90%;
+    margin: auto;
+    border-radius: 2rem;
+    background-color: #00040a;
+    color: black;
+}
+
+.btn-submit {
+    /* margin: 0 50px; */
+    padding: 8px 2px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background: rgb(34, 167, 234);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 20%;
+}
+
+.btn-main:hover {
+    background-color: rgb(251, 235, 235);
+    color: rgb(33, 32, 32);
+}
+
+.btn-submit:hover {
+    background-color: rgb(251, 235, 235);
+    color: rgb(33, 32, 32);
+}
+
+.form {
+
+    padding: 0 2rem 0;
+}
+
+.form-input {
+    margin: 14px 0;
+    width: 80%;
+    padding: 7px;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    background-color: transparent;
+    color: aliceblue;
+
+}
+
+.image-project {
+    height: 30rem;
+    width: 25rem;
+    border-radius: 2rem;
+    background-image: url('/Final web/img/6d5a1101d1166a5f22c29419280e5738.jpg');
+    background-size: contain;
+    width: 60%;
+    opacity: 0.8;
+}
+
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+/* footer */
+
+
+.footer {
+    bottom: 0;
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 1.5rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-section h3 {
+    display: inline;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cursive h3 {
+    font-family: 'Great Vibes', cursive;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 0.9em;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+
+hr {
+    opacity: 0.3;
+
+}
+
+.footer-design {
+    width: 100%;
+}
+
+.linkedin,
+.github,
+.instagram {
+
+    height: 3.5rem;
+    width: 3.5rem;
+    filter: invert(1);
+    padding: 0.5rem;
+}
+
+.logo-left {
+    align-items: center;
+    justify-content: start;
+    padding-right: 5%;
+}
+
+.footer-bottom {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #333;
+    font-size: smaller;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.2rem;
+    height: 10vh;
+}

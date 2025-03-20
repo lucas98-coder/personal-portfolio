@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1100px){
+    /* .nav-list {
+        flex-direction: column;
+    }
+    .navbar{
+        height: 75%;
+        flex-direction: column;
+        transition: all 1.5s ease-out;
+    } */
+    .glow{
+        left: 75%; 
+    }
+    .glow2{
+        top: 100%;
+        left: 135%;
+    }
+    .box{
+        margin: auto;
+    padding: auto;
+    }
+    .form{
+        max-width: 50%;
+    }
+    .image>img{
+        max-width: 100%;
+        height: 300px;
+        width:  300px;
+        /* max-width: 70%; */
+    }
+    .image-project{
+        height: 18rem;
+        width: 25rem;
+        max-width: 30%;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 0 2rem;
+    }
+    .new-box{
+        height: 20rem;
+        width: 20rem;
+    }
+    .format{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 1021px) {
+    
+    .container{
+        flex-direction: column;
+        height: 90vh;
+    }
+    .pro-img{
+        top: 15%;
+    }
+    .pro-img>img{
+        
+        height: 300px;
+    }
+    .hello{
+        text-align: center;
+        font-size: 35px;
+    }
+    .name{
+        text-align: center;
+        width: 100%;
+        font-size: 40px;
+    }
+    .firsthalf{
+        max-height: 50%;
+    }
+    .secondsec{
+        max-height: 50%;
+    }
+    .glow{
+        top: -2px;
+        left: 122%;
+    }
+    .container2{
+        flex-direction: column-reverse;
+        height: 150vh;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items:center;
+
+    }
+    .about{
+        height:auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secpara{
+
+        text-align:justify;
+    }
+    .container4, .container5{
+        flex-direction:column;
+        height: auto;
+        justify-content:space-evenly;
+        
+    }
+    .contactpage{
+        margin-top: 2rem;
+        /* flex-direction: row; */
+    }
+
+
+    
+    .new-box{
+        height: 15rem;
+        width: 25rem;
+        margin: 3rem;
+        
+    }
+    .form{
+        max-width: 90%;
+    }
+    .image-project{
+        
+        width: 100%;
+    }
+
+
+    
+}
+@media only screen and (max-width: 768px){
+    .main{
+        height: 130vh;
+    
+    }
+    .small{
+        text-align: center;
+    }
+    .secondhalf{
+        align-content: center;
+    }
+
+
+.social-media{
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro-img2{
+    max-width: 100%;
+    height: 18em;
+    width: 2;
+    
+}
+}
